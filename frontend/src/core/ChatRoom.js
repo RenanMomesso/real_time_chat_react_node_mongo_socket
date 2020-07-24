@@ -120,9 +120,8 @@ export default function ChatRoom() {
                             renderCards()
                         )}
                         <div
-                            ref={el => {
-                                messagesEnd = el;
-                            }}
+                            ref={divRef
+                            }
                             style={{ float: "left", clear: "both" }}
                         />
                     </div>
